@@ -116,6 +116,7 @@ map.on('load', function () {
    });
    console.log ("geojson load")
 
+//add queens neighbhorhood outline to map using NYC Planning Neighbhorhood Names data. NTA is used in naming because it's shorter and easier, but it's only the neighborhood name. I removed all other boroughs from the original data so it just shows neighborhoods in Queens.   
    map.addLayer({
       id: 'NTA-fill',
       type: 'fill',
