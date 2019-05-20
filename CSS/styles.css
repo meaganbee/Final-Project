@@ -3,75 +3,68 @@ body {
 }
 
 h1 {
-  font-family: sans-serif;
-  font-size: 36px;
-  letter-spacing: 3px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 52px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color:#A40000;
+ }
+
+ p {
+   font-family: 'Heebo', sans-serif;
+   font-size: 22px;
+   font-weight: 500;
+   color:black;
  }
 
 h2 {
-  font-family: sans-serif;
-  font-size: 16px;
-  font-weight: 200;
-}
-
-h3 {
-  font-family: sans-serif;
+  font-family: 'Heebo', sans-serif;
   font-size: 18px;
-  font-weight: 500;
-  color:#A40000;
+  font-weight: 400;
+  color: #A40000;
 }
 
 ul {
-  font-family: sans-serif;
+  font-family: 'Heebo', sans-serif;
   font-size: 16px;
   font-weight: 300;
   margin-left: 20px;
 }
 
-h4 {
-  font-family: sans-serif;
+h3 {
+  font-family: 'Heebo', sans-serif;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
+  color:#A40000;
+}
+
+h4 {
+  font-family: 'Heebo', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
   color:#A40000;
 }
 
 h5 {
   font-family: sans-serif;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 400;
   color:#A40000;
 }
 
 h6 {
   font-family: sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  color:#A40000;
-}
-
-p {
-  font-family: sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  color:#A40000;
-}
-
-.country {
-  background: #A40000;
-  padding: 10px;
-  margin: 5px;
-  width: 600px;
-  font-family: sans-serif;
+  font-size: 13px;
   font-weight: 300;
-  color: #FFFFFF;
-  margin-left: 20px;
+  color:black;
 }
 
-.region {
+.neighborhood {
   background: #A40000;
   padding: 10px;
   margin: 5px;
-  width: 600px;
+  width: 300px;
+  font-size: 16px;
   font-family: sans-serif;
   font-weight: 300;
   color: #FFFFFF;
@@ -83,9 +76,7 @@ button {
   font-size: 16px;
   font-family: sans-serif;
   font-weight: 500;
-  color: #234EA2;
-  -webkit-box-shadow: 1px 0px 9px 0px;
-box-shadow: 1px 0px 9px 0px;
+  color: black
 }
 
 #map {
@@ -106,4 +97,4 @@ cursor: pointer;
 
 .mapboxgl-popup {
 max-width: 200px;
-}
+max-height:50px;
